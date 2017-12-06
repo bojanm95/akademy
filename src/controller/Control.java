@@ -23,7 +23,6 @@ public class Control {
 	
 	ActionListener listener = new ActionListener() {
 		
-		@Override
 		public void actionPerformed(ActionEvent e) {
 			switch (e.getActionCommand()) {
 			case "exit":

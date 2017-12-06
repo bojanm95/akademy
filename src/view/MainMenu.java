@@ -40,12 +40,10 @@ public class MainMenu extends JMenuBar implements ViewInterface {
 		
 	}
 
-	@Override
 	public void update() {
 		
 	}
 
-	@Override
 	public void registerListener(ActionListener listener) {
 		
 		menuFileOpen.addActionListener(listener);

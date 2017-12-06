@@ -53,13 +53,13 @@ public class MainForm extends JFrame implements ViewInterface {
 		setVisible(true);
 	}
 
-	@Override
+	
 	public void update() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public void registerListener(ActionListener listener) {
 
 		menuBar.registerListener(listener);

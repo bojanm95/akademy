@@ -40,14 +40,11 @@ public class AppToolbar extends JToolBar implements ViewInterface {
 	}
 
 
-	@Override
 	public void update() {
-		// TODO Auto-generated method stub
 		
 	}
 
 
-	@Override
 	public void registerListener(ActionListener listener) {
 		btnNew.addActionListener(listener);
 		btnOpen.addActionListener(listener);
